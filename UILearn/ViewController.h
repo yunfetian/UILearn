@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+-(void) setMultiplyTable;
+-(void) changLabel;
+-(void) initView;
+-(void) createRandomLabel;
+-(void) createViewAnimation;
 @end
 
