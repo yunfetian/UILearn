@@ -24,6 +24,8 @@
 		59825CC11B64578D00C1DE7C /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59825CB71B64578D00C1DE7C /* 7.jpg */; };
 		59825CC21B64578D00C1DE7C /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59825CB81B64578D00C1DE7C /* 8.jpg */; };
 		59825CC31B64578D00C1DE7C /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59825CB91B64578D00C1DE7C /* 9.jpg */; };
+		59825CC71B6980EC00C1DE7C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59825CC51B6980EC00C1DE7C /* SecondViewController.m */; };
+		59825CC81B6980EC00C1DE7C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59825CC61B6980EC00C1DE7C /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		59825CB71B64578D00C1DE7C /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		59825CB81B64578D00C1DE7C /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		59825CB91B64578D00C1DE7C /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		59825CC41B6980EC00C1DE7C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		59825CC51B6980EC00C1DE7C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		59825CC61B6980EC00C1DE7C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				59825C8D1B64538200C1DE7C /* Images.xcassets */,
 				59825C8F1B64538200C1DE7C /* LaunchScreen.xib */,
 				59825C801B64538200C1DE7C /* Supporting Files */,
+				59825CC41B6980EC00C1DE7C /* SecondViewController.h */,
+				59825CC51B6980EC00C1DE7C /* SecondViewController.m */,
+				59825CC61B6980EC00C1DE7C /* SecondViewController.xib */,
 			);
 			path = UILearn;
 			sourceTree = "<group>";
@@ -245,6 +253,7 @@
 				59825CBD1B64578D00C1DE7C /* 1.jpg in Resources */,
 				59825CBF1B64578D00C1DE7C /* 5.jpg in Resources */,
 				59825CC01B64578D00C1DE7C /* 6.jpg in Resources */,
+				59825CC81B6980EC00C1DE7C /* SecondViewController.xib in Resources */,
 				59825CBC1B64578D00C1DE7C /* 12.jpg in Resources */,
 				59825C911B64538200C1DE7C /* LaunchScreen.xib in Resources */,
 				59825CBA1B64578D00C1DE7C /* 10.jpg in Resources */,
@@ -267,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59825CC71B6980EC00C1DE7C /* SecondViewController.m in Sources */,
 				59825C891B64538200C1DE7C /* ViewController.m in Sources */,
 				59825C861B64538200C1DE7C /* AppDelegate.m in Sources */,
 				59825C831B64538200C1DE7C /* main.m in Sources */,
