@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -25,14 +26,19 @@
     // Dispose of any resources that can be recreated.
 }
 -(void) initView {
+    // UIBarButtonItem的创建
+    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(selectLeft)];
+    self.navigationItem.leftBarButtonItem = leftButton;
     UIView * uiView= [[UIView alloc] init];
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(selectRight)];
+    self.navigationItem.rightBarButtonItem = rightButton;
     //button.center = CGPointMake(50, 20);
     button.frame = CGRectMake(20, 60, 50 ,30);
-    [button setTitle:@"button" forState:UIControlStateNormal];
+    [button setTitle:@"下一个视图" forState:UIControlStateNormal];
     button.titleLabel.font = [UIFont systemFontOfSize:10];
     [button setBackgroundColor:[UIColor brownColor]];
-    [button addTarget:self action:@selector(changLabel) forControlEvents:UIControlEventTouchUpInside];
+    [button addTarget:self action:@selector(putNextControlView) forControlEvents:UIControlEventTouchUpInside];
     [uiView addSubview:button];
     UIButton *button1 = [UIButton buttonWithType:UIButtonTypeSystem];
     button1.frame = CGRectMake(90, 60, 50 ,30);
@@ -57,6 +63,21 @@
     [uiView addSubview:button3];
     self.view = uiView;
     self.view.backgroundColor = [UIColor whiteColor];
+}
+-(void)selectLeft
+{
+    UIAlertView *alter = [[UIAlertView alloc] initWithTitle:@"提示" message:@"你点击了导航栏左按钮" delegate:self  cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    [alter show];
+}
+-(void)selectRight
+{
+    UIAlertView *alter = [[UIAlertView alloc] initWithTitle:@"提示" message:@"你点击了导航栏右按钮" delegate:self  cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    [alter show];
+}
+-(void) putNextControlView {
+    SecondViewController *second = [[SecondViewController alloc] init];
+    [self.navigationController pushViewController:second animated:YES];
+    second.title = @"Second";
 }
 // 通过输出一个乘法表完成对UILabel的学习
 -(void) setMultiplyTable {
@@ -149,7 +170,7 @@
     self.view = uiView;
     self.view.backgroundColor = [UIColor whiteColor];
 }
-// 试图和动画的学习
+// 视图和动画的学习
 -(void) createViewAnimation {
     // 画像を表示する
     UIView *view = [[UIView alloc] init];

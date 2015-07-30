@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D6D507ED-744D-4B32-8334-D08AAB9D3AEF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UILearn</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D3349CC65953002E12CBA450C7E99E16F6D602CF</key>
+		<string>https://github.com/yunfetian/UILearn.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UILearn.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D3349CC65953002E12CBA450C7E99E16F6D602CF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yunfetian/UILearn.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D3349CC65953002E12CBA450C7E99E16F6D602CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D3349CC65953002E12CBA450C7E99E16F6D602CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UILearn</string>
+		</dict>
+	</array>
+</dict>
+</plist>
